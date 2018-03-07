@@ -1,3 +1,4 @@
-<script>
-	window.checkout = <?= $block->getSerializedConfig() ?>;
+<script>window.checkout = <?= $block->getSerializedConfig() ?>;</script>
+<script type="text/x-magento-init">
+	{"*": {"Magento_Ui/js/block-loader": "<?= $block->getViewFileUrl('images/loader-1.gif') ?>"}}
 </script>
